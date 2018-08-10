@@ -773,7 +773,7 @@ public :
    TBranch        *b_ScalarHT_HT;   //!
    TBranch        *b_ScalarHT_size;   //!
 
-   SMCEDM_Analysis(TTree *tree=0);
+   SMCEDM_Analysis(TTree *tree = 0);
    virtual ~SMCEDM_Analysis();
    virtual Int_t    Cut(Long64_t entry);
    virtual Int_t    GetEntry(Long64_t entry);
@@ -787,16 +787,16 @@ public :
 #endif
 
 #ifdef SMCEDM_Analysis_cxx
-SMCEDM_Analysis::SMCEDM_Analysis(TTree *tree) : fChain(0) 
+SMCEDM_Analysis::SMCEDM_Analysis(TTree *tree) : fChain(0)
 {
 // if parameter tree is not specified (or zero), connect the file
 // used to generate this class and read the Tree.
    if (tree == 0) {
-      TFile *f = (TFile*)gROOT->GetListOfFiles()->FindObject("Signal.root");
+      TFile *f = (TFile*)gROOT->GetListOfFiles()->FindObject("DY_Jets.root");
       if (!f || !f->IsOpen()) {
-         f = new TFile("Signal.root");
+         f = new TFile("DY_Jets.root");
       }
-      f->GetObject("Delphes",tree);
+      f->GetObject("Delphes", tree);
 
    }
    Init(tree);
