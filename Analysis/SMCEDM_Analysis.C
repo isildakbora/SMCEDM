@@ -9,7 +9,7 @@
 #include <TMatrixDSymEigen.h>
 #include <util.h>
 
-void SMCEDM_Analysis::Loop() {
+void SMCEDM_Analysis::Loop(TString outfilename) {
     //   In a ROOT session, you can do:
     //      root> .L SMCEDM_Analysis.C
     //      root> SMCEDM_Analysis t
@@ -34,7 +34,7 @@ void SMCEDM_Analysis::Loop() {
     //    fChain->GetEntry(jentry);       //read all branches
     //by  b_branchname->GetEntry(ientry); //read only this branch
 
-    TFile *outfile_ = new TFile("DY_Jets_outfile.root", "RECREATE");
+    TFile *outfile_ = new TFile(outfilename, "RECREATE");
 
     //--- book the tree -----------------------
     TTree *outTree_ = new TTree("outTree", "outTree");
@@ -74,8 +74,6 @@ void SMCEDM_Analysis::Loop() {
         outTree_->Branch("dRbbTop"              ,&dRbbTop_           ,"dRbbTop_/F");*/
     //------------------------------------------------------------------
     // Define histograms
-
-    auto h_had_W_candidate_mass =  new TH1F("had_W_candidate_mass", "had_W_candidate_mass", 200, 0, 200);
 
     //------------------------------------------------------------------
 

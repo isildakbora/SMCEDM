@@ -20,8 +20,8 @@ void trainMVACat() {
 
     TFile *bkgSrc[2];
 
-    bkgSrc[0] = TFile::Open("W_Jets_outfile.root");
-    bkgSrc[1] = TFile::Open("DY_Jets_outfile.root");
+    bkgSrc[0] = TFile::Open("WJets_outfile.root");
+    bkgSrc[1] = TFile::Open("DYJets_outfile.root");
 
     TFile *sigSrc = TFile::Open("Signal_outfile.root");
     sig_XSEC[0] = 1.884e+2;
