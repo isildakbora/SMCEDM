@@ -1,4 +1,3 @@
-
 void runAnalysis() {
 	TString filename[1] =  {"WJets"};
 	
