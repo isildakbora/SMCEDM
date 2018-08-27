@@ -10,9 +10,9 @@ Method         : KNN::KNN
 TMVA Release   : 4.2.1         [262657]
 ROOT Release   : 6.12/06       [396294]
 Creator        : boraisildak
-Date           : Fri Aug 10 21:55:12 2018
+Date           : Mon Aug 27 16:41:36 2018
 Host           : Darwin ElCapitan-2.local 15.6.0 Darwin Kernel Version 15.6.0: Tue Jan 9 20:12:05 PST 2018; root:xnu-3248.73.5~1/RELEASE_X86_64 x86_64
-Dir            : /Users/boraisildak/Documents/GitHub/SMCEDM/Analysis
+Dir            : /Users/boraisildak/Documents/Github/SMCEDM/Analysis
 Training events: 2000
 Analysis type  : [Classification]
 
@@ -43,25 +43,25 @@ UseLDA: "False" [Use local linear discriminant - experimental feature]
 
 NVar 21
 nJets                         nJets                         nJets                         nJets                                                           'F'    [2,14]
-ht                            ht                            ht                            ht                                                              'F'    [52.6264953613,1937.14245605]
-jetPt[0]                      jetPt_0_                      jetPt[0]                      jetPt[0]                                                        'F'    [25.3388881683,771.893127441]
-jetPt[1]                      jetPt_1_                      jetPt[1]                      jetPt[1]                                                        'F'    [23.457868576,623.182189941]
+ht                            ht                            ht                            ht                                                              'F'    [44.5096206665,1937.14245605]
+jetPt[0]                      jetPt_0_                      jetPt[0]                      jetPt[0]                                                        'F'    [24.1180973053,771.893127441]
+jetPt[1]                      jetPt_1_                      jetPt[1]                      jetPt[1]                                                        'F'    [22.8374900818,623.182189941]
 jetPt[2]                      jetPt_2_                      jetPt[2]                      jetPt[2]                                                        'F'    [0,285.220458984]
-jetPt[3]                      jetPt_3_                      jetPt[3]                      jetPt[3]                                                        'F'    [0,170.677139282]
+jetPt[3]                      jetPt_3_                      jetPt[3]                      jetPt[3]                                                        'F'    [0,212.022689819]
 jetPt[4]                      jetPt_4_                      jetPt[4]                      jetPt[4]                                                        'F'    [0,124.699615479]
-sphericity                    sphericity                    sphericity                    sphericity                                                      'F'    [0.0005325077218,0.864658772945]
-aplanarity                    aplanarity                    aplanarity                    aplanarity                                                      'F'    [-4.65982097353e-08,0.334201902151]
-foxWolfram[0]                 foxWolfram_0_                 foxWolfram[0]                 foxWolfram[0]                                                   'F'    [0.057923104614,0.440202236176]
-foxWolfram[1]                 foxWolfram_1_                 foxWolfram[1]                 foxWolfram[1]                                                   'F'    [-0.249687492847,0.268297284842]
-foxWolfram[2]                 foxWolfram_2_                 foxWolfram[2]                 foxWolfram[2]                                                   'F'    [-0.115398824215,0.364943802357]
-foxWolfram[3]                 foxWolfram_3_                 foxWolfram[3]                 foxWolfram[3]                                                   'F'    [-0.249678865075,0.237365618348]
-mTop                          mTop                          mTop                          mTop                                                            'F'    [8.17731798794e-30,1833.93469238]
-yTop                          yTop                          yTop                          yTop                                                            'F'    [-3.98403978348,3.63517522812]
-ptTop                         ptTop                         ptTop                         ptTop                                                           'F'    [0,676.800476074]
-met                           met                           met                           met                                                             'F'    [0.320985376835,433.430999756]
-metPhi                        metPhi                        metPhi                        metPhi                                                          'F'    [-3.13918328285,3.13974905014]
+sphericity                    sphericity                    sphericity                    sphericity                                                      'F'    [0.000721735239495,0.864658772945]
+aplanarity                    aplanarity                    aplanarity                    aplanarity                                                      'F'    [-4.65982097353e-08,0.335540741682]
+foxWolfram[0]                 foxWolfram_0_                 foxWolfram[0]                 foxWolfram[0]                                                   'F'    [0.0790046006441,0.440202236176]
+foxWolfram[1]                 foxWolfram_1_                 foxWolfram[1]                 foxWolfram[1]                                                   'F'    [-0.248954862356,0.316777437925]
+foxWolfram[2]                 foxWolfram_2_                 foxWolfram[2]                 foxWolfram[2]                                                   'F'    [-0.12138658762,0.364943802357]
+foxWolfram[3]                 foxWolfram_3_                 foxWolfram[3]                 foxWolfram[3]                                                   'F'    [-0.248340532184,0.314699083567]
+mTop                          mTop                          mTop                          mTop                                                            'F'    [-8.34194705519e+27,3193.36645508]
+yTop                          yTop                          yTop                          yTop                                                            'F'    [-8.34200844596e+27,3.01739501953]
+ptTop                         ptTop                         ptTop                         ptTop                                                           'F'    [4.59149454821e-41,676.800476074]
+met                           met                           met                           met                                                             'F'    [0.451787054539,433.430999756]
+metPhi                        metPhi                        metPhi                        metPhi                                                          'F'    [-3.13975977898,3.14128661156]
 nLeptons                      nLeptons                      nLeptons                      nLeptons                                                        'F'    [0,2]
-mW                            mW                            mW                            mW                                                              'F'    [65.02784729,94.9839553833]
+mW                            mW                            mW                            mW                                                              'F'    [65.0335159302,94.9839553833]
 nBJets                        nBJets                        nBJets                        nBJets                                                          'F'    [0,4]
 NSpec 0
 

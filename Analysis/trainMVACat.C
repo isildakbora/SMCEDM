@@ -20,10 +20,10 @@ void trainMVACat() {
 
     TFile *bkgSrc[2];
 
-    bkgSrc[0] = TFile::Open("WJets_outfile.root");
-    bkgSrc[1] = TFile::Open("DYJets_outfile.root");
+    bkgSrc[0] = TFile::Open("WJets_out.root");
+    bkgSrc[1] = TFile::Open("DYJets_out.root");
 
-    TFile *sigSrc = TFile::Open("Signal_outfile.root");
+    TFile *sigSrc = TFile::Open("Signal_out.root");
     sig_XSEC[0] = 1.884e+2;
 
     TTree *sigTree = (TTree *)sigSrc->Get("outTree");
