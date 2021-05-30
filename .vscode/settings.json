@@ -2,5 +2,6 @@
     "files.associations": {
         "get_xsec.C": "cpp",
         "trainMVACat.C": "cpp"
-    }
+    },
+    "python.pythonPath": "/Users/boraisildak/mambaforge/envs/myenv/bin/python"
 }
