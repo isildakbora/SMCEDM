@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "get_xsec.C": "cpp",
+        "trainMVACat.C": "cpp"
+    }
+}
