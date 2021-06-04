@@ -6,7 +6,6 @@ import configparser
 
 config_file_name = sys.argv[1]
 exe_name         = sys.argv[2]
-
 config = configparser.ConfigParser()
 config.read(str(config_file_name))
 

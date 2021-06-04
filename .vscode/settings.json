@@ -4,5 +4,5 @@
         "trainMVACat.C": "cpp",
         "TreeProducer.C": "cpp"
     },
-    "python.pythonPath": "/Users/boraisildak/mambaforge/envs/myenv/bin/python"
+    "python.pythonPath": "/usr/bin/python3"
 }
