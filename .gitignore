@@ -1,3 +1,4 @@
 *.root
 *.pdf
 vscode
+.ipynb_checkpoints
