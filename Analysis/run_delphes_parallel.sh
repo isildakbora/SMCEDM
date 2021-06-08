@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NRUNS=19
+NRUNS=1
 SAMPLE_PATH=/mnt/harddisk1/ttbar/dtG_6
 HEPMC_NAME=tag_1_pythia8_events.hepmc
 
@@ -16,12 +16,10 @@ cd $DELPHES_PATH
 
 cd $SAMPLE_PATH/Events/run_04_\$1/
 pigz -1 $HEPMC_NAME
-" > run_delphes.sh
+" >run_delphes.sh
 
-for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
-do
-echo "HELLO $i"
-bash run_delphes.sh $i &
+for ((i = 1; i <= NRUNS; i++)); do
+    bash run_delphes.sh $i &
 done
 wait
 rm run_delphes.sh
